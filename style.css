@@ -1,0 +1,46 @@
+body {
+    background-color: #141039;
+    color:aliceblue;
+    padding-inline: 8%;
+    padding-block: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+h1 {
+    color:orange;
+    text-align: center;
+}
+
+h2 {text-align: center;}
+p {line-height: 1.5;}
+a {color:rgb(126, 183, 227);}
+cite {color:orange;}
+
+img {
+    display: block;
+    margin-inline: auto;
+    margin-block: 35px;
+    border: 5px solid brown;
+    border-radius: 5px;
+}
+
+blockquote {
+    background-color: #3c3367;
+    padding-inline: 20px;
+    padding-block: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 1.5ch;
+    list-style-type:"★";
+    padding-inline-start: 2.5ch;
+    line-height: 1.5;
+}
+
+hr {
+    border: 3px dashed #3c3367 ;
+    margin-block: 35px;
+}
