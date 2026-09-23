@@ -4,33 +4,53 @@ body {
     padding-inline: 8%;
     padding-block: 1%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 h1 {
     color:orange;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-h2 {text-align: center;}
+h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+h4 {text-align: center;}
 p {line-height: 1.5;}
 a {color:rgb(126, 183, 227);}
 cite {color:orange;}
+.kdh {color: violet;}
 
-img {
-    display: block;
-    margin-inline: auto;
+#images {
     margin-block: 35px;
-    border: 5px solid brown;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+.screenshot {height: 235px;}
+img {border: solid 6px #3c3367;}
 
 blockquote {
     background-color: #3c3367;
     padding-inline: 20px;
     padding-block: 15px;
     border-radius: 10px;
+    margin-block: 20px;
     line-height: 1.5;
+}
+
+#likes {
+    background-color: #3c3367;
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-block: 20px;
 }
 
 li {
@@ -43,4 +63,14 @@ li {
 hr {
     border: 3px dashed #3c3367 ;
     margin-block: 35px;
+}
+
+
+.box {display: flex;}
+.lyrics {
+    flex: 50%;
+    background-color: #3c3367;
+    padding-inline: 5%;
+    margin-inline: 5%;
+    border-radius: 15px;
 }
