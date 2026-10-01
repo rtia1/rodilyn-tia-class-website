@@ -1,0 +1,97 @@
+
+body {
+    background-color: #141039;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+* {box-sizing: border-box;}
+
+.page {
+    display: grid;
+    grid-template-rows: 15% 1fr 15%;
+    height:100dvh;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.section {
+    padding: 15px;
+}
+
+.title {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+.header {
+    grid-row: 1/2;
+    background-color: orange;
+    color:black;
+}
+
+.middle {
+    display: grid;
+    grid-row: 2/-2;
+    grid-template-columns: 1fr 4fr 2fr;
+    gap: 20px;
+}
+
+.footer {
+    grid-row: -2/-1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.left-sidebar {
+    background-color:saddlebrown;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-content {
+    background-color:#3c3367;
+}
+
+.right-sidebar {
+    background-color:midnightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content:center;
+    align-content: flex-start;
+}
+
+
+
+.img {
+    background-color:rebeccapurple;
+    flex-grow: 0.5;
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#back {
+    justify-self: end;
+    color: aliceblue;
+    margin-top: auto;
+    padding: 5px;
+}

@@ -26,15 +26,15 @@ cite {color:orange;}
 .kdh {color: violet;}
 
 #images {
-    margin-block: 35px;
     display: flex;
+    margin-block: 35px;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
 .screenshot {height: 235px;}
-img {border: solid 6px #3c3367;}
+img {border: solid 7px #3c3367;}
 
 blockquote {
     background-color: #3c3367;
@@ -66,11 +66,15 @@ hr {
 }
 
 
-.box {display: flex;}
+.box {
+    display: flex;
+    margin-inline: 5%;
+}
+
 .lyrics {
     flex: 50%;
     background-color: #3c3367;
-    padding-inline: 5%;
-    margin-inline: 5%;
+    padding-inline: 3%;
+    margin-inline: 3%;
     border-radius: 15px;
 }
