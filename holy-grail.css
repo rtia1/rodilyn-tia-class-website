@@ -3,7 +3,7 @@ body {
     background-color: #141039;
     color: aliceblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 0px;
 }
 
@@ -87,7 +87,7 @@ body {
     align-items: center;
 }
 
-<!-- -->
+
 
 #back {
     justify-self: end;

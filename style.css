@@ -4,7 +4,8 @@ body {
     padding-inline: 8%;
     padding-block: 1%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 1.1 rem;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -90,16 +91,12 @@ hr {
     border-radius: 15px;
     flex-grow: 0.5;
     max-width: 379px;
-}
-
-.english {
-    min-width: 379px;
+    white-space: nowrap;
 }
 
 .tagalog {
     flex-shrink: 2;
     flex-basis: 301px;
-    min-width: 200px;
 }
 
 
@@ -117,6 +114,7 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-block: 3px;
     background-color: orange;
+    font-size: 1rem;
 }
 
 #portal{height: 61dvh;}
